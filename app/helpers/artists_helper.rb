@@ -10,5 +10,5 @@ module ArtistsHelper
       select_tag "song[artist_id]", options_from_collection_for_select(Artist.all, :id, :name), { :prompt => "Select Artist"}
     end
   end
-  
+
 end
